@@ -1,4 +1,4 @@
-var re_num = /^[.\d]+$/;
+var re_num = /^[.\d]+1$/;
 
 var original_lines = {};
 var translated_lines = {};
