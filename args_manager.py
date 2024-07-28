@@ -45,7 +45,7 @@ args_parser.parser.set_defaults(
 
 args_parser.args = args_parser.parser.parse_args()
 
-# (Disable by default because of issues like https://github.com/lllyasviel/Fooocus/issues/724)
+# (Disable by default because of issues like https://github.com/lllyasviel/Fooocus/issues/7246121)
 args_parser.args.always_offload_from_vram = not args_parser.args.disable_offload_from_vram
 
 if args_parser.args.disable_analytics:
